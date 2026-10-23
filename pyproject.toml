@@ -1,0 +1,12 @@
+[project]
+name = "qrac-lp"
+version = "0.1.0"
+description = "QRAC LP converse computation and exact rational certification"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==2.4.6",
+    "scipy==1.17.1",
+]
+
+[tool.uv]
+package = false
