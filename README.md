@@ -58,4 +58,8 @@ Package checks used Python 3.12.13, NumPy 2.4.6, and SciPy 1.17.1. Syntax/import
 
 ## Research reference
 
-Shuo Tan and Syed A. Jafar. [Long version](https://escholarship.org/uc/item/5910g713).
+Shuo Tan and Syed A. Jafar. **Optimal Average Success Probabilities of Binary (n, n-1) and (n, n-2) Quantum Random Access Codes.** Long version, UC Irvine: Recent Work, October 21, 2026.
+
+- [Paper and abstract](https://tseason2022.github.io/papers/qrac/)
+- [Full-text PDF](https://tseason2022.github.io/papers/qrac/qrac-long-version.pdf)
+- [Institutional archive on eScholarship](https://escholarship.org/uc/item/5910g713)
