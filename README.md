@@ -1,6 +1,6 @@
 # QRAC-LP
 
-Core computation and exact rational certification for a linear-programming converse on binary quantum random access codes (QRACs). An input pair `(n, m)` represents `n` classical bits encoded into `m` qubits, with `1 <= m < n`. The output `B_LP` is an upper bound on the optimal average bit-recovery probability.
+Core computation and exact rational certification for a linear-programming converse on binary quantum random access codes (QRACs). An input pair `(n, m)` represents `n` classical bits encoded into `m` qubits, with `1 <= m < n`. The output `B_LP` is an upper bound on the optimal average success probability of bit recovery.
 
 ## Core design
 
@@ -58,8 +58,24 @@ Package checks used Python 3.12.13, NumPy 2.4.6, and SciPy 1.17.1. Syntax/import
 
 ## Research reference
 
-Shuo Tan and Syed A. Jafar. **Optimal Average Success Probabilities of Binary (n, n-1) and (n, n-2) Quantum Random Access Codes.** Long version, UC Irvine: Recent Work, October 21, 2026.
+Shuo Tan and Syed A. Jafar. **Optimal Average Success Probabilities of Binary (n, n-1) and (n, n-2) Quantum Random Access Codes.** arXiv:2607.10414v3, revised October 23, 2026. The long version was deposited in UC Irvine: Recent Work on October 21, 2026.
 
+- [arXiv v3](https://arxiv.org/abs/2607.10414v3) · [arXiv v3 PDF](https://arxiv.org/pdf/2607.10414v3)
 - [Paper and abstract](https://tseason2022.github.io/papers/qrac/)
 - [Full-text PDF](https://tseason2022.github.io/papers/qrac/qrac-long-version.pdf)
 - [Institutional archive on eScholarship](https://escholarship.org/uc/item/5910g713)
+
+```bibtex
+@article{tan2026optimal,
+  title={Optimal Average Success Probabilities of Binary $(n,n-1)$ and $(n,n-2)$ Quantum Random Access Codes},
+  author={Tan, Shuo and Jafar, Syed A.},
+  journal={arXiv preprint arXiv:2607.10414},
+  year={2026},
+  note={Version 3, revised October 23, 2026},
+  url={https://arxiv.org/abs/2607.10414v3}
+}
+```
+
+## License
+
+The software and associated software documentation in this repository are licensed under the [MIT License](LICENSE). Linked papers and other publications retain their own licenses.
